@@ -23,12 +23,18 @@ button {
   margin: 15px;
 }
 
+.links-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .result-article {
   background-color: #813772;
   border: solid;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 10px;
-  width: 100%;
+  width: 95%;
 }
 
 h2 {
@@ -40,10 +46,10 @@ p {
   margin: 5px;
 }
 
-a {
+.links-section a {
   color: white;
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   text-decoration: none;
   width: 70%;
 }
@@ -54,4 +60,19 @@ a:hover {
 
 a:visited {
   color: darkgray;
+}
+
+@media screen and (max-width: 600px) {
+  input {
+    width: 70%;
+  }
+
+  .result-article {
+    width: 90%;
+  }
+
+  .links-section a {
+    width: 90%;
+  }
+
 }
