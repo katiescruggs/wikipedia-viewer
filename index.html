@@ -3,17 +3,22 @@
 <head>
   <title>Wikipedia Viewer</title>
   <script src="https://use.fontawesome.com/feee93a86d.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Wikipedia Search</h1>
-    <input class="search-input" type="text" placeholder="Enter a search term here.">
-    <button class="search-button"><i class="fa fa-search"></i></button>
-    <a href="https://google.com" target="_blank">
-      <button class="random-button">Or click here for a random article.</button>
-    </a>
-  <section class="links-section">
-  </section>
+  <header>
+    <h1>Wikipedia Search</h1>
+      <form action="search">
+        <input class="search-input" type="text" placeholder="Enter a search term here."><button class="search-button"><i class="fa fa-search"></i></button>
+      </form>
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+        <button class="random-button">Or click here for a random article.</button>
+      </a>
+  </header>
+
+  <section class="links-section"></section>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="index.js"></script>
 </body>

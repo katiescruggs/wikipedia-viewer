@@ -1,0 +1,57 @@
+body {
+  background-color: #062F4F;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+input {
+  font-size: 100%;
+  padding: 3px;
+  width: 50%;
+}
+
+button {
+  font-size: 100%;
+  padding: 5px;
+}
+
+.random-button {
+  margin: 15px;
+}
+
+.result-article {
+  background-color: #813772;
+  border: solid;
+  margin: 20px auto;
+  padding: 10px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+}
+
+a {
+  color: white;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 70%;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+a:visited {
+  color: darkgray;
+}
